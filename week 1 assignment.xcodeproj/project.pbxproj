@@ -14,6 +14,13 @@
 		56192FB41BDDC9CB0001FAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56192FB21BDDC9CB0001FAD3 /* LaunchScreen.storyboard */; };
 		56192FBF1BDDC9CB0001FAD3 /* week_1_assignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56192FBE1BDDC9CB0001FAD3 /* week_1_assignmentTests.swift */; };
 		56192FCA1BDDC9CB0001FAD3 /* week_1_assignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56192FC91BDDC9CB0001FAD3 /* week_1_assignmentUITests.swift */; };
+		56192FD81BDDE5C50001FAD3 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56192FD71BDDE5C50001FAD3 /* CreateAccountRootViewController.swift */; };
+		56192FDB1BDDE69B0001FAD3 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56192FDA1BDDE69B0001FAD3 /* SignInRootViewController.swift */; };
+		56192FDD1BDDE7790001FAD3 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56192FDC1BDDE7790001FAD3 /* CreateAccountViewController.swift */; };
+		56192FDF1BDDE78E0001FAD3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56192FDE1BDDE78E0001FAD3 /* SignInViewController.swift */; };
+		56192FE11BDE07FA0001FAD3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56192FE01BDE07FA0001FAD3 /* SettingViewController.swift */; };
+		821A024F1BDEF16C007A12A9 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821A024E1BDEF16C007A12A9 /* TermsViewController.swift */; };
+		82F853541BDED41800D5DC3B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F853531BDED41800D5DC3B /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		56192FC51BDDC9CB0001FAD3 /* week 1 assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "week 1 assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56192FC91BDDC9CB0001FAD3 /* week_1_assignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week_1_assignmentUITests.swift; sourceTree = "<group>"; };
 		56192FCB1BDDC9CB0001FAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56192FD71BDDE5C50001FAD3 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		56192FDA1BDDE69B0001FAD3 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		56192FDC1BDDE7790001FAD3 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		56192FDE1BDDE78E0001FAD3 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
+		56192FE01BDE07FA0001FAD3 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		821A024E1BDEF16C007A12A9 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		82F853531BDED41800D5DC3B /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,7 @@
 				56192FA91BDDC9CB0001FAD3 /* AppDelegate.swift */,
 				56192FAB1BDDC9CB0001FAD3 /* ViewController.swift */,
 				56192FAD1BDDC9CB0001FAD3 /* Main.storyboard */,
+				56192FD91BDDE5E40001FAD3 /* View Controllers */,
 				56192FB01BDDC9CB0001FAD3 /* Assets.xcassets */,
 				56192FB21BDDC9CB0001FAD3 /* LaunchScreen.storyboard */,
 				56192FB51BDDC9CB0001FAD3 /* Info.plist */,
@@ -123,6 +138,20 @@
 				56192FCB1BDDC9CB0001FAD3 /* Info.plist */,
 			);
 			path = "week 1 assignmentUITests";
+			sourceTree = "<group>";
+		};
+		56192FD91BDDE5E40001FAD3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56192FDC1BDDE7790001FAD3 /* CreateAccountViewController.swift */,
+				821A024E1BDEF16C007A12A9 /* TermsViewController.swift */,
+				56192FDE1BDDE78E0001FAD3 /* SignInViewController.swift */,
+				56192FD71BDDE5C50001FAD3 /* CreateAccountRootViewController.swift */,
+				56192FDA1BDDE69B0001FAD3 /* SignInRootViewController.swift */,
+				56192FE01BDE07FA0001FAD3 /* SettingViewController.swift */,
+				82F853531BDED41800D5DC3B /* PhotosViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56192FDD1BDDE7790001FAD3 /* CreateAccountViewController.swift in Sources */,
+				82F853541BDED41800D5DC3B /* PhotosViewController.swift in Sources */,
+				56192FDB1BDDE69B0001FAD3 /* SignInRootViewController.swift in Sources */,
+				56192FDF1BDDE78E0001FAD3 /* SignInViewController.swift in Sources */,
+				821A024F1BDEF16C007A12A9 /* TermsViewController.swift in Sources */,
+				56192FD81BDDE5C50001FAD3 /* CreateAccountRootViewController.swift in Sources */,
 				56192FAC1BDDC9CB0001FAD3 /* ViewController.swift in Sources */,
+				56192FE11BDE07FA0001FAD3 /* SettingViewController.swift in Sources */,
 				56192FAA1BDDC9CB0001FAD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +518,7 @@
 				56192FD01BDDC9CC0001FAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56192FD11BDDC9CC0001FAD3 /* Build configuration list for PBXNativeTarget "week 1 assignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +527,7 @@
 				56192FD31BDDC9CC0001FAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56192FD41BDDC9CC0001FAD3 /* Build configuration list for PBXNativeTarget "week 1 assignmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +536,7 @@
 				56192FD61BDDC9CC0001FAD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
