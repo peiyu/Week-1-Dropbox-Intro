@@ -1,4 +1,4 @@
-# Dropbox Intro
+# Week 1 Project: Dropbox
 Week One Assignment
 How many hours did it take to complete?
 5 hours
