@@ -148,12 +148,19 @@
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jhz-1F-5FY">
-                                <rect key="frame" x="0.0" y="467" width="320" height="45"/>
+                                <rect key="frame" x="0.0" y="468" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="a7y-fT-mN2" kind="push" identifier="createAccountSegue" id="8lb-IK-6Px"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="14P-Sp-DLl">
+                                <rect key="frame" x="0.0" y="421" width="320" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="C6V-nR-OM3" kind="push" id="tqb-oc-BrT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1031,7 +1038,8 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="11b-bU-5qs"/>
         <segue reference="MMf-CC-9VJ"/>
+        <segue reference="tqb-oc-BrT"/>
+        <segue reference="11b-bU-5qs"/>
     </inferredMetricsTieBreakers>
 </document>
